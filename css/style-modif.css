@@ -4,7 +4,7 @@
 }
 
 .cta-tight-width-whitespace {
-    max-width: 460px;
+    max-width: 472px;
     margin: auto;
 }
 
@@ -14,4 +14,33 @@
 
 li {
     list-style: none;
+}
+
+#map {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-row {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .portfolio-row > .col-sm-6 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #map.col-sm-6 {
+        width: 100%;
+    }
 }
