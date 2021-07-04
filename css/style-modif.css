@@ -1,11 +1,15 @@
-.cta-background {
-    background-color: rgba(165, 147, 99, 0.8);
+.cta-background, .black-background{
+    background-color: rgba(165, 147, 99, .4);
     padding: 40px;
 }
 
 .cta-tight-width-whitespace {
     max-width: 472px;
     margin: auto;
+}
+
+.tc-white {
+    font-weight: bolder;
 }
 
 .quotes {
@@ -22,6 +26,10 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.texture-paper::before {
+    opacity: 1.7;
 }
 
 @media (max-width: 767px) {
