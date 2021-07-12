@@ -41,6 +41,10 @@ p {
     height: 270px;
 }
 
+.color-title {
+    color: rgb(214, 98, 44);
+}
+
 @media (max-width: 767px) {
     .img-responsive {
         margin-left: auto;
